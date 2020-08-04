@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Welcome from './Components/LoginContainer/Welcome';
+import DonationPage from './Components/DonationContainer/DonationPage';
+import Commentbox from './Components/DonationContainer/Commentbox';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Commentbox />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  padding: 2rem;
+}
+
+.comment-box {
+  max-width: 37.5rem;
+  color: #fff;
+  background-color: #909090;
+  border-radius: 0.875rem;
+  padding: 0.2rem 1rem 2rem;
+}
+
+.comment-form {
+  background-color: #fff;
+  border-radius: 0.25rem;
+  margin-bottom: 2rem;
+  padding: 1rem;  
+}
+
+
